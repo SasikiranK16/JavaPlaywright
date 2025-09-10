@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.playwright.locators.Locators">
+      <class name="org.playwright.alerts.AlertsDemo">
         <methods>
+          <include name="testOne"/>
           <include name="launch"/>
-          <include name="testLocators"/>
         </methods>
-      </class> <!-- org.playwright.locators.Locators -->
+      </class> <!-- org.playwright.alerts.AlertsDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

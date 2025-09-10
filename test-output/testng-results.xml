@@ -2,20 +2,20 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-10T14:26:55 IST" name="Default suite" finished-at="2025-09-10T14:27:14 IST" duration-ms="18361">
+  <suite started-at="2025-09-10T15:40:14 IST" name="Default suite" finished-at="2025-09-10T15:40:38 IST" duration-ms="23967">
     <groups>
     </groups>
-    <test started-at="2025-09-10T14:26:55 IST" name="Default test" finished-at="2025-09-10T14:27:14 IST" duration-ms="18361">
-      <class name="org.playwright.locators.Locators">
-        <test-method is-config="true" signature="launch()[pri:0, instance:org.playwright.locators.Locators@407a7f2a]" started-at="2025-09-10T14:26:39 IST" name="launch" finished-at="2025-09-10T14:26:55 IST" duration-ms="16507" status="PASS">
+    <test started-at="2025-09-10T15:40:14 IST" name="Default test" finished-at="2025-09-10T15:40:38 IST" duration-ms="23967">
+      <class name="org.playwright.alerts.AlertsDemo">
+        <test-method is-config="true" signature="launch()[pri:0, instance:org.playwright.alerts.AlertsDemo@723e88f9]" started-at="2025-09-10T15:40:04 IST" name="launch" finished-at="2025-09-10T15:40:14 IST" duration-ms="9784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="testLocators()[pri:0, instance:org.playwright.locators.Locators@407a7f2a]" started-at="2025-09-10T14:26:56 IST" name="testLocators" finished-at="2025-09-10T14:27:14 IST" duration-ms="18133" status="PASS">
+        <test-method signature="testOne()[pri:0, instance:org.playwright.alerts.AlertsDemo@723e88f9]" started-at="2025-09-10T15:40:14 IST" name="testOne" finished-at="2025-09-10T15:40:38 IST" duration-ms="23764" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLocators -->
-      </class> <!-- org.playwright.locators.Locators -->
+        </test-method> <!-- testOne -->
+      </class> <!-- org.playwright.alerts.AlertsDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -10,6 +10,7 @@ import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.Browser.NewContextOptions;
 import com.microsoft.playwright.BrowserContext;
 import com.microsoft.playwright.BrowserType.LaunchOptions;
+import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Playwright;
 
@@ -19,6 +20,7 @@ public class Basics {
 	public Browser browser;
 	public BrowserContext browserContext;
 	public Page page;
+	
 	@BeforeSuite
 	public void launch() {
 		playwright = Playwright.create();
@@ -27,7 +29,7 @@ public class Basics {
 		browser = playwright.chromium().launch(new LaunchOptions().setHeadless(false).setArgs(a));
 		browserContext = browser.newContext(new NewContextOptions().setViewportSize(null));
 		page = browserContext.newPage();
-		page.navigate("https://rahulshettyacademy.com/loginpagePractise/");
+		page.navigate("https://www.selenium.dev/selenium/web/alerts.html#");
 //		page.pause();
 	}
 	@Test
