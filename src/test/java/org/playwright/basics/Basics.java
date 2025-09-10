@@ -27,8 +27,8 @@ public class Basics {
 		browser = playwright.chromium().launch(new LaunchOptions().setHeadless(false).setArgs(a));
 		browserContext = browser.newContext(new NewContextOptions().setViewportSize(null));
 		page = browserContext.newPage();
-		page.navigate("https://www.google.com");
-		page.pause();
+		page.navigate("https://rahulshettyacademy.com/loginpagePractise/");
+//		page.pause();
 	}
 	@Test
 	public void testOne() throws Exception {
